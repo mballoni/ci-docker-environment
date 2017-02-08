@@ -8,9 +8,13 @@ This environment uses docker compose. For execution:
 
 ```
 
-docker-compuse up
+docker-compose up
 
 ```
+
+##Reference
+
+https://docs.docker.com/compose/
 
 #Jenkinsfile
 
