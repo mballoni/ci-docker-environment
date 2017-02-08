@@ -6,7 +6,7 @@ Small environment for development tests purposes
 
 This environment uses docker compose. For execution:
 
-```sh
+```
 docker-compuse up
 ```
 
