@@ -1,0 +1,7 @@
+#CI Environment
+
+Small environment for development tests purposes
+
+#Jenkinsfile
+
+Simple jenkinsfile example with some jobs relying on gradle. Could easily be replaced with maven

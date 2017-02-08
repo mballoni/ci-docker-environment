@@ -1,0 +1,31 @@
+# Sonar
+sonar:
+  image: sonarqube:6.2-alpine
+  ports:
+    - "9000:9000"
+    - "9092:9092"
+  volumes:
+    - /var/sonarqube/data:/opt/sonarqube/data
+    - /var/sonarqube/conf:/opt/sonarqube/conf
+
+# Nexus
+nexus:
+  image: sonatype/nexus:latest
+  ports:
+    - "8081:8081"
+  volumes:
+    - /var/nexus:/sonatype-work
+
+
+# Jenkins
+jenkins:
+  privileged: true
+  image: jenkins:latest
+  ports:
+    - "8080:8080"
+    - "50000:50000"
+  volumes:
+    - /var/jenkins:/var/jenkins_home
+  links:
+    - sonar
+    - nexus
