@@ -1,6 +1,10 @@
 #CI Environment
 
-Small environment for development tests purposes
+Small CI environment for development tests purposes
+
+1. Jenkins
+2. SonarQube
+3. Nexus
 
 ##Docker compose
 
