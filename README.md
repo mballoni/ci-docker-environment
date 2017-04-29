@@ -1,4 +1,4 @@
-#CI Environment
+# CI Environment
 
 Small CI environment for development tests purposes
 
@@ -6,7 +6,7 @@ Small CI environment for development tests purposes
 2. SonarQube
 3. Nexus
 
-##Docker compose
+## Docker compose
 
 This environment uses docker compose. For execution:
 
@@ -16,10 +16,10 @@ docker-compose up
 
 ```
 
-##Reference
+## Reference
 
 https://docs.docker.com/compose/
 
-#Jenkinsfile
+# Jenkinsfile
 
 Simple jenkinsfile example with some jobs relying on gradle. Could easily be replaced with maven
