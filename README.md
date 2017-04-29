@@ -10,7 +10,7 @@ Small CI environment for development tests purposes
 
 This environment uses docker compose. For execution:
 
-```
+```sh
 
 docker-compose up
 
